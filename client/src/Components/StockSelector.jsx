@@ -126,8 +126,6 @@ const StockSelector = () => {
                     <MyChartComponent chartData={chartData} />
                 </Box>
             )}
-
-            {error && <p style={{ color: 'red', textAlign: 'center' }}>{error}</p>}
         </Box>
     );
 };
